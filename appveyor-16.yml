@@ -15,5 +15,5 @@ build_script:
       gradlew build collect --no-daemon -i --stacktrace
 test: off
 artifacts:
-  - path: ./build/libs/*.jar
+  - path:  ./build/libs/*.jar
     name: .
